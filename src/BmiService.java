@@ -1,9 +1,9 @@
 public class BmiService {
 
-  public int calculate (double rost, int ves) {
+    public int calculate(double height_m, int weight_kg) {
 
         int result;
-        result = (int) (ves / (rost * rost));
+        result = (int) (weight_kg / (height_m * height_m));
         return result;
     }
 }
